@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import select
 import socket
 import gesture_recognition.config
