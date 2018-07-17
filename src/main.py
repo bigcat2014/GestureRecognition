@@ -16,7 +16,7 @@ import json
 
 # Create the client.
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('10.0.0.254', 328))
+client_socket.connect(('10.0.0.254', 12345))
 
 msg = {}
 msg_header = {'type': 'trigger'}
