@@ -27,4 +27,5 @@ msg['message_body'] = msg_body
 
 if __name__ == '__main__':
 	client_socket.send(json.dumps(msg))
+	print client_socket.recv(1024).decode('utf-8')
 	client_socket.close()
